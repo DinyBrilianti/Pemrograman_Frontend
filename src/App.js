@@ -1,18 +1,16 @@
-import "./App.css";
-/**
- * Import Component Hello
- */
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+// Import Halaman Home
+import Home from "./pages/Home";
 
 function App() {
+  /**
+   * Menampilkan Halaman Home.
+   * Tag div bisa diganti dengan tag <>.
+   * Tag <> adalah React fragment
+   */
   return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
